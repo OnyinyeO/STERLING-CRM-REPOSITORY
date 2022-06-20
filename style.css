@@ -19,6 +19,7 @@ html {
   padding-top: 0.6rem;
   color: white;
   box-shadow: 0 1px 5px -1px #1a1818;
+  position: relative;
 }
 
 .top-links {
@@ -28,7 +29,7 @@ html {
   padding-right: 5%;
   font-weight: 500;
   font-size: medium;
-  margin-top: -8.5%;
+  margin-top: -3%;
   list-style-type: none;
   position: relative;
 }
@@ -112,11 +113,48 @@ a.link-box :hover {
 
 .notification .badge {
   position: absolute;
-  top: -12px;
+  top: -10px;
   right: 70px;
   padding: 2px 4px 2px 3px;
   border-radius: 50%;
-  font-weight: 500;
+  font-weight: 300;
   background: red;
   color: white;
+}
+.inputt {
+  width: 35%;
+  height: 45px;
+  background-color: rgb(238, 232, 232);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px -1px #070707;
+  position: absolute;
+  top: 1.7%;
+  left: 30%;
+  padding-left: 2rem;
+  font-size: large;
+}
+
+.search-but {
+  width: 82px;
+  height: 47px;
+  background-color: transparent;
+  color: rgb(33, 31, 31);
+  position: absolute;
+  border: none;
+  top: 1.5%;
+  left: 60%;
+}
+
+.repo {
+  position: absolute;
+  left: 43%;
+  top: 37%;
+  font-size: 45px;
+  font-weight: 900;
+  color: #393737;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+b {
+  font-weight: 700;
 }
