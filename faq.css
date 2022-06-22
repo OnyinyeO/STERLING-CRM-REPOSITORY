@@ -134,7 +134,7 @@ a.click-here {
 }
 
 .faq input[type="checkbox"]:checked + label > .faq-arrow {
-  transition: transform 0.8s;
+  transition: transform 0s;
   transform: rotate(135deg);
 }
 .faq input[type="checkbox"]:checked + label {
