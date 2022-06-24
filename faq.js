@@ -1,15 +1,16 @@
-var options = {
-  valueNames: ["question", "answer"],
-};
-var faqList = new List("dbod", options);
-var noItems = $(
-  '<li id="no-items-found"><h3 class="question">No items found</h3></li>'
-);
+const faq = document.querySelectorAll(".dbod");
 
-faqList.on("updated", function (list) {
-  if (list.matchingItems.length == 0) {
-    $(list.list).append(noItems);
-  } else {
-    noItems.detach();
-  }
+const displayFaq = (values) => {
+  faq.forEach((element) => {
+    element.style.display = "none";
+    const question = element.h4.innerHTML.toUpperCase();
+    const answer = element.p.innerHTML.toUpperCase();
+
+    if (question.includes(values) || answer.includes(values)) {
+      element.style.display = "block";
+    }
+  });
+};
+searchb.addEventListener("input", (e) => {
+  displayFaq(e.target.value.toUpperCase());
 });

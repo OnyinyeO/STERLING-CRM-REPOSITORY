@@ -97,6 +97,7 @@ a.click-here {
   border: none;
   top: 50%;
   left: 62%;
+  opacity: 0.3;
 }
 
 .faq label {
@@ -140,7 +141,7 @@ a.click-here {
 .faq input[type="checkbox"]:checked + label {
   display: block;
   background: rgb(255, 255, 255) !important;
-  height: 180px;
+  height: 300px;
   transition: 0s;
 }
 
@@ -166,15 +167,18 @@ a.click-here {
 }
 
 .question {
-  color: rgb(39, 37, 37);
+  color: rgb(77, 73, 73) !important;
   text-indent: 20px;
   padding-left: 20px;
 }
 
 .answer {
-  color: rgb(27, 26, 26);
-  width: 95%;
+  color: black;
+  width: 100%;
   padding-left: 40px;
+  border-top: 1px solid rgb(207, 192, 192);
+  padding-top: 20px;
+  text-align: left;
 }
 
 .load {
