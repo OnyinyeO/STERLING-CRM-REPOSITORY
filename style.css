@@ -163,37 +163,131 @@ b {
   font-weight: 700;
 }
 a.d365 {
-  color: rgb(166, 37, 37);
+  color: rgb(65, 61, 61);
   width: 150px;
   height: 50px;
-  background-color: rgb(198, 198, 204);
+  background-color: rgb(208, 208, 213);
   padding: 10px;
-  border-radius: 50px;
+  border-radius: 25px;
   position: absolute;
   text-align: center;
   box-shadow: 0 1px 5px -1px #302e2e;
-  margin-top: -465px;
+  margin-top: -472px;
+  padding-bottom: 50px;
+  text-shadow: 0.8px 0.5px #864646;
 }
 a.portal {
-  color: rgb(166, 37, 37);
+  color: rgb(65, 61, 61);
   width: 150px;
   height: 50px;
-  background-color: rgb(198, 198, 204);
+  background-color: rgb(208, 208, 213);
   padding: 10px;
-  border-radius: 50px;
+  border-radius: 25px;
   position: absolute;
   text-align: center;
   box-shadow: 0 1px 5px -1px #302e2e;
   left: 1528px;
-  margin-top: -465px;
+  margin-top: -472px;
+  padding-bottom: 50px;
+  text-shadow: 0.8px 0.5px #864646;
 }
 a.d365:hover {
-  color: rgb(92, 89, 89);
-  text-decoration: underline;
+  background-color: rgb(244, 244, 248);
+  /* text-decoration: underline transparent; */
 }
 a.portal:hover {
-  color: rgb(92, 89, 89);
-  text-decoration: underline;
+  background-color: rgb(244, 244, 248);
+  /* text-decoration: underline transparent; */
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .banner {
+    width: 100%;
+    height: 70px;
+    background-color: #aa181c;
+    padding-left: 2rem;
+    padding-top: 0.6rem;
+    color: white;
+    box-shadow: 0 1px 5px -1px #1a1818;
+    position: relative;
+  }
+
+  .top-links {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 72%;
+    padding-right: 5%;
+    font-weight: 500;
+    font-size: medium;
+    margin-top: -4%;
+    list-style-type: none;
+    position: relative;
+  }
+
+  .keyboard {
+    width: 100vw;
+    height: 50vh;
+  }
+  .parent-box {
+    padding-left: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    margin-left: 20px;
+  }
+  .boxes {
+    height: 85%;
+    width: 80%;
+    padding: 47px;
+    margin: 10px;
+  }
+
+  a.link-box {
+    color: rgb(106, 31, 31);
+    text-decoration: none;
+  }
+  a.link-box :hover {
+    color: darkred;
+    text-decoration: none;
+    background-color: rgb(244, 246, 241);
+  }
+  .hamburger {
+    display: none;
+  }
+  .ask-us {
+    margin-top: 3.5rem;
+    text-align: center;
+    line-height: 0.5;
+  }
+
+  .notification .badge {
+    top: -10px;
+    right: 45px;
+  }
+  .inputt {
+    width: 35%;
+    height: 43px;
+    top: 2.3%;
+    left: 30%;
+  }
+
+  .search-but {
+    top: 1.7%;
+    left: 60%;
+  }
+
+  .repo {
+    left: 41.5%;
+  }
+  a.d365 {
+    color: rgb(65, 61, 61);
+    margin-top: -428px;
+    margin-left: 15px;
+  }
+  a.portal {
+    color: rgb(65, 61, 61);
+    margin-top: -428px;
+    left: 1000px;
+  }
 }
 
 @media (min-width: 701px) and (max-width: 1024px) {
@@ -253,6 +347,12 @@ a.portal:hover {
     top: 2.8%;
     left: 22%;
     font-size: medium;
+  }
+  a.d365 {
+    display: none;
+  }
+  a.portal {
+    display: none;
   }
 }
 @media (min-width: 481px) and (max-width: 700px) {
@@ -320,6 +420,12 @@ a.portal:hover {
     padding: 1rem;
     font-size: 22px;
   }
+  a.d365 {
+    display: none;
+  }
+  a.portal {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
@@ -385,5 +491,21 @@ a.portal:hover {
   .befor-tabs {
     padding: 1rem;
     font-size: 22px;
+  }
+  a.d365 {
+    display: none;
+    /* width: 130px;
+    padding: 10px;
+    margin-top: -202px;
+    padding-bottom: 50px; */
+  }
+  a.portal {
+    display: none;
+    /* width: 50px;
+    height: 20px;
+    padding: 10px;
+    left: 1528px; 
+    margin-top: -472px;
+    padding-bottom: 50px;  */
   }
 }
