@@ -216,15 +216,7 @@ a.portal:hover {
   }
 
   .top-links {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 72%;
-    padding-right: 5%;
-    font-weight: 500;
-    font-size: medium;
     margin-top: -4%;
-    list-style-type: none;
-    position: relative;
   }
 
   .keyboard {

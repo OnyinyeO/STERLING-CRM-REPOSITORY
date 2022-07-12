@@ -23,14 +23,7 @@ html {
 }
 
 .top-links {
-  display: flex;
-  justify-content: space-evenly;
-  padding-left: 72%;
-  padding-right: 5%;
-  font-weight: 500;
-  font-size: medium;
-  margin-top: -2.5%;
-  list-style-type: none;
+  display: none;
 }
 
 a:link,

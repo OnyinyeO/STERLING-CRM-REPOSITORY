@@ -200,3 +200,215 @@ a.click-here {
   line-height: 0.5;
   margin-top: 4px;
 }
+.hamburger {
+  display: none;
+}
+
+@media (min-width: 951px) and (max-width: 1500px) {
+  .hamburger {
+    display: none;
+  }
+  .top-links {
+    margin-top: -4%;
+  }
+  .banner {
+    width: 1600px;
+  }
+  .container {
+    width: 1600px;
+  }
+  .faq label {
+    width: 1400px;
+  }
+  .dbod {
+    width: 1400px;
+    font-size: medium;
+    margin-bottom: 4px;
+    margin-left: 100px;
+  }
+
+  .answer {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+  .textt {
+    top: 15%;
+    left: 475px;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 950px) {
+  .hamburger {
+    display: none;
+  }
+  .top-links {
+    margin-top: -6%;
+  }
+  .banner {
+    width: 1000px;
+  }
+  .container {
+    width: 1000px;
+  }
+  .image {
+    width: 100vw;
+    height: 30vh;
+  }
+  .textt {
+    top: 15%;
+    left: 170px;
+  }
+  .faq label {
+    height: 130px;
+    width: 800px;
+  }
+  .dbod {
+    width: 800px;
+    font-size: medium;
+    margin-bottom: 4px;
+    margin-left: 50px;
+  }
+
+  .answer {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+
+  .faq .faq-arrow {
+    top: -43px;
+  }
+  .faq input[type="checkbox"]:checked + label {
+    height: 520px;
+  }
+  .question {
+    text-indent: 5px;
+    padding-left: 10px;
+    /* margin-top: 10px;  */
+  }
+}
+
+@media (min-width: 501px) and (max-width: 650px) {
+  .hamburger {
+    display: inline-block;
+    position: absolute;
+    right: 26px;
+    top: 26px;
+  }
+  .nav {
+    display: none;
+  }
+  .banner {
+    width: 750px;
+  }
+  .container {
+    width: 750px;
+  }
+  .image {
+    width: 750px;
+    height: 30vh;
+  }
+  .textt {
+    top: 15%;
+    left: 40px;
+    font-size: 35px;
+  }
+  .inputt {
+    width: 400px;
+    height: 50px;
+    padding-left: 2rem;
+    left: 50px;
+  }
+
+  .faq label {
+    height: 130px;
+    width: 480px;
+  }
+  .dbod {
+    width: 480px;
+    font-size: medium;
+    margin-bottom: 4px;
+    margin-left: 70px;
+  }
+
+  .answer {
+    width: 480px;
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+
+  .faq .faq-arrow {
+    top: -43px;
+  }
+  .faq input[type="checkbox"]:checked + label {
+    height: 520px;
+  }
+  .question {
+    text-indent: 4px;
+    padding-left: 10px;
+    /* margin-top: 10px; */
+  }
+}
+
+@media (max-width: 500px) {
+  .hamburger {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 26px;
+  }
+  .nav {
+    display: none;
+  }
+  .banner {
+    width: 500px;
+  }
+  .container {
+    width: 500px;
+  }
+  .image {
+    width: 500px;
+    height: 30vh;
+  }
+  .textt {
+    top: 25%;
+    left: 12%;
+    font-size: 25px;
+  }
+  .inputt {
+    width: 250px;
+    height: 50px;
+    padding-left: 2rem;
+    left: 80px;
+  }
+
+  .faq label {
+    height: 200px;
+    width: 350px;
+  }
+  .dbod {
+    width: 350px;
+    font-size: medium;
+    margin-bottom: 15px;
+    margin-left: 30px;
+  }
+
+  .answer {
+    width: 350px;
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+
+  .faq .faq-arrow {
+    top: -43px;
+  }
+  .faq input[type="checkbox"]:checked + label {
+    height: 550px;
+  }
+  .question {
+    text-indent: 4px;
+    padding-left: 10px;
+    margin-top: 7px;
+  }
+}
