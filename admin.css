@@ -73,7 +73,6 @@ input[type="text"] {
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  box-sizing: border-box;
   background-color: rgb(240, 238, 238);
   border-radius: 10px;
 }
@@ -104,8 +103,24 @@ input[type="submit"]:hover {
   text-align: center;
   margin-top: -10px;
 }
+.hamburger {
+  display: none;
+}
 
-@media (max-width: 489px) {
+@media (min-width: 851px) and (max-width: 1200px){
+  .hamburger {
+    display: none;
+  }
+  .contact {
+    width: 600px;
+  }
+  .top-links {
+    margin-top: -3rem;
+  }
+
+}
+
+@media (min-width: 671px) and (max-width: 850px) {
   .hamburger {
     display: inline-block;
     position: absolute;
@@ -114,15 +129,74 @@ input[type="submit"]:hover {
   }
   .nav {
     display: none;
+}
+    .contact {
+    width: 540px;
+    margin-left: 7rem;
+  
+  } 
+}
+@media (min-width: 481px) and (max-width: 670px) {
+  .hamburger {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 26px;
+  }
+  .nav {
+    display: none;
+}
+    .contact {
+    width: 450px;
+    margin-left: 70px;
+  
+  } 
+}
 
+@media (max-width: 480px) {
+
+  .hamburger {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 26px;
+  }
+  .nav {
+    display: none;
+}
   .contact {
-    width: 300px;
+    width: 340px;
+    height: 500px;
     font-weight: 200;
     font-size: small;
-    margin-left: 2px;
-    margin-top: 10%;
+    margin-left: 35px;
+    margin-top: 13%;
     font-weight: 400;
     font-size:medium;
-    line-height: 10px;
+    line-height: 20px;
     padding-left: 0;
+    padding: 20px;
+  }
+
+  input[type="textarea"],
+  input[type="text"] {
+    width: 100%;
+    padding: 12px 2px;
+    margin: 7px 0;
+    
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    padding-top: 10px;
+    margin: 8px 0;
+    padding-left: 0%;
+    font-weight: 400;
+    margin-top: 30px;
+  }
+
+  .admin {
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
