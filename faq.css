@@ -204,7 +204,43 @@ a.click-here {
   display: none;
 }
 
-@media (min-width: 951px) and (max-width: 1500px) {
+@media (min-width: 1300px) and (max-width: 1500px) {
+  .hamburger {
+    display: none;
+  }
+  .top-links {
+    margin-top: -4%;
+  }
+  .banner {
+    width: 1600px;
+  }
+  .container {
+    width: 1600px;
+  }
+  .faq label {
+    width: 1400px;
+  }
+  .dbod {
+    width: 1400px;
+    font-size: medium;
+    margin-bottom: 4px;
+    margin-left: 100px;
+  }
+
+  .answer {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+  .textt {
+    top: 7%;
+    left: 475px;
+  }
+  .faq input[type="checkbox"]:checked + label {
+    height: 540px;
+  }
+}
+@media (min-width: 951px) and (max-width: 1299px) {
   .hamburger {
     display: none;
   }
