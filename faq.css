@@ -211,6 +211,14 @@ a.click-here {
   .top-links {
     margin-top: -4%;
   }
+  .container {
+    width: 100vmax;
+    height: 38vh;
+  }
+  .image {
+    width: 100vw;
+    height: 37vh;
+  }
   .banner {
     width: 1600px;
   }
@@ -233,11 +241,11 @@ a.click-here {
     padding-top: 15px;
   }
   .textt {
-    top: 7%;
+    top: 5%;
     left: 475px;
   }
   .faq input[type="checkbox"]:checked + label {
-    height: 540px;
+    height: 538px;
   }
 }
 @media (min-width: 951px) and (max-width: 1299px) {
@@ -250,8 +258,13 @@ a.click-here {
   .banner {
     width: 1600px;
   }
+  .image {
+    width: 1595px;
+    height: 39vh;
+  }
   .container {
     width: 1600px;
+    height: 40vh;
   }
   .faq label {
     width: 1400px;
@@ -262,7 +275,6 @@ a.click-here {
     margin-bottom: 4px;
     margin-left: 100px;
   }
-
   .answer {
     width: 100%;
     padding-left: 10px;
