@@ -245,7 +245,7 @@ a.click-here {
     left: 475px;
   }
   .faq input[type="checkbox"]:checked + label {
-    height: 536px;
+    height: 533px;
   }
 }
 @media (min-width: 951px) and (max-width: 1299px) {
